@@ -40,7 +40,13 @@
     }
     else if (input.includes("sala") || input.includes("bc")|| input.includes("mc")|| input.includes("i use slang word")) {
       output = "Do not use slang word";
-    } 
+    }
+    else if (input.includes("thanks") || input.includes("thank you")|| input.includes("love you")|| input.includes("i am glad")) {
+      output = "You're most welcome!! 😊";
+    }
+    else if (input.includes("can you help me") || input.includes("help me")) {
+      output = "Tell me, I will try my best to serve you";
+    }   
     else {
       output = "Sorry, I don't understand that. Please try something else.";
     }

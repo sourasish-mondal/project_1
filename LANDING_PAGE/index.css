@@ -128,6 +128,7 @@
 .voice{
     z-index: -6;
     color:white;
+    
 }
 .first-image{
     background-image: url("/IMAGES/pic1.jpg");
@@ -191,6 +192,11 @@
     font-size: 2.4rem;
     text-align: center;
     cursor: pointer;
+    color:white;
+}
+.voice i:hover{
+    color:rgb(210, 213, 212);
+    font-size: 2.5rem;
 }
 #p1{
     padding-top:18%;
